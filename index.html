@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Plugin</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- main.css -->
+	<link href="main.css" rel="stylesheet">
+	
+</head>
+<body>
+
+	<div class="lista_de_youtube_2" ></div>
+
+<!--JQuery -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="main.js"></script>
+<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('.lista_de_youtube_2').youtube(
+				[
+					"6zDT_uGYdVs?list=RDGMEMJQXQAmqrnmK1SEjY_rKBGAVM6zDT_uGYdVs", 
+					"R2F_hGwD26g", 
+					"eDlcqhlzDqQ"
+
+				],
+				300,
+				190
+			);
+		});
+</script>
+
+
+</body>
+</html>
